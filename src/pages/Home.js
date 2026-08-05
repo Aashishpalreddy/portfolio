@@ -42,7 +42,7 @@ function Home() {
             Aashishpal Reddy Kandala
           </h1>
           <p className="hero__subtitle ani-scroll ani-delay-2">
-            Generative AI Engineer · Applied AI Engineer · LLM Engineer
+            Generative AI Engineer · ML Engineer · Software Engineer
           </p>
           <p className="hero__description ani-scroll ani-delay-3">
             2+ years building enterprise AI applications — from RAG systems

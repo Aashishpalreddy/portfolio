@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer__top">
           <div className="footer__brand">
             <span className="footer__name">Aashishpal Reddy Kandala</span>
-            <span className="footer__tagline">Generative AI Engineer · Applied AI Engineer · LLM Engineer</span>
+            <span className="footer__tagline">Generative AI Engineer · ML Engineer · Software Engineer</span>
           </div>
           <div className="footer__links">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aashishpalsai1111@gmail.com" target="_blank" rel="noopener noreferrer" className="footer__link">Email</a>
