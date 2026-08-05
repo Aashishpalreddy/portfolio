@@ -90,6 +90,13 @@ function Home() {
                 <strong>University of North Texas</strong> in an accelerated 3-year timeline,
                 graduating <strong>Cum Laude</strong> with a <strong>3.54 GPA</strong>.
               </p>
+              <p>
+                Alongside my generative AI work, I build traditional{' '}
+                <strong>machine learning</strong> models — using <strong>TensorFlow</strong>,{' '}
+                <strong>PyTorch</strong>, and <strong>Scikit-learn</strong> for predictive
+                modeling and feature engineering — to complement LLM-based systems with
+                data-driven decision-making.
+              </p>
             </div>
           </div>
         </div>
@@ -116,6 +123,10 @@ function Home() {
             <div className="stat-card glass-panel ani-scroll ani-delay-3">
               <span className="stat-card__number">3.54</span>
               <span className="stat-card__label">GPA — Cum Laude</span>
+            </div>
+            <div className="stat-card glass-panel ani-scroll ani-delay-4">
+              <span className="stat-card__number">50K+</span>
+              <span className="stat-card__label">Records Used for ML Model Training</span>
             </div>
           </div>
         </div>
@@ -186,6 +197,10 @@ function Home() {
             </div>
             <div className="skill-category glass-panel ani-scroll ani-delay-3">
               <h3 className="skill-category__title">Machine Learning</h3>
+              <p className="skill-category__desc">
+                Building and training predictive models with a focus on feature
+                engineering, evaluation, and deploying models into production.
+              </p>
               <div className="skill-category__tags">
                 <span className="skill-tag">TensorFlow</span>
                 <span className="skill-tag">PyTorch</span>
@@ -264,6 +279,13 @@ function Home() {
                 and PostgreSQL for reliable, production-ready systems.
               </p>
             </div>
+            <div className="research-card glass-panel ani-scroll ani-delay-5">
+              <h3 className="research-card__title">Applied Machine Learning</h3>
+              <p className="research-card__desc">
+                Training and evaluating predictive models with TensorFlow,
+                PyTorch, and Scikit-learn, from feature engineering through deployment.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -284,9 +306,8 @@ function Home() {
                 <ul className="exp-card__list">
                   <li>Designed and deployed enterprise AI applications using Python, LangChain, OpenAI APIs, FastAPI, TensorFlow, and PyTorch.</li>
                   <li>Built RAG systems with semantic search, vector embeddings, and FAISS to power intelligent enterprise decision-making.</li>
-                  <li>Developed agentic AI workflows automating knowledge retrieval, document understanding, and business processes.</li>
                   <li>Built Python data pipelines processing 100K+ structured and unstructured records for AI inference and analytics.</li>
-                  <li>Deployed production AI systems on AWS using Docker, Kubernetes, and GitHub Actions CI/CD.</li>
+                  <li>Trained and evaluated machine learning models with TensorFlow, PyTorch, and Scikit-learn, applying feature engineering to improve predictive accuracy.</li>
                   <li>Optimized SQL queries, APIs, and AI workflows, improving processing efficiency by 30%.</li>
                 </ul>
               </div>
@@ -348,8 +369,8 @@ function Home() {
           <div className="cta-card glass-panel ani-scroll">
             <h2 className="cta-card__title ani-scroll">Open to full-time opportunities</h2>
             <p className="cta-card__desc ani-scroll ani-delay-1">
-              I'm actively looking for full-time Generative AI, Applied AI, and LLM
-              Engineer roles. If you're hiring or know a team that is, I'd love to talk.
+              I'm actively looking for full-time Generative AI, Machine Learning, and
+              Software Engineer roles. If you're hiring or know a team that is, I'd love to talk.
             </p>
             <div className="cta-card__actions ani-scroll ani-delay-2">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aashishpalsai1111@gmail.com" target="_blank" rel="noopener noreferrer" className="btn btn--primary">Get in Touch</a>
