@@ -34,6 +34,17 @@ const projects = [
   },
   {
     id: 2,
+    title: 'DemandCast',
+    period: '2026',
+    org: 'Personal Project',
+    description:
+      'A per-product demand forecasting tool trained on real e-commerce transaction data, validated with honest rolling-origin backtesting against a seasonal-naive baseline. Includes a live mode where anyone can upload their own sales data and train a model on it in-session, built with Python, LightGBM, and Streamlit.',
+    tags: ['Python', 'Machine Learning', 'LightGBM', 'Time-Series Forecasting', 'Streamlit'],
+    link: 'https://demandcast-itjvs25bbfzfv42bwr7ybj.streamlit.app/',
+    linkText: 'Visit Live Demo',
+  },
+  {
+    id: 3,
     title: 'HabitQuest',
     period: 'Spring 2025',
     org: 'Personal Project',
@@ -44,7 +55,7 @@ const projects = [
     linkText: 'View on GitHub',
   },
   {
-    id: 3,
+    id: 4,
     title: 'JWKS Server',
     period: 'Spring 2025',
     org: 'CSCE 3550 — Computer Security, University of North Texas',
@@ -55,7 +66,7 @@ const projects = [
     linkText: 'View on GitHub',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Food Log',
     period: 'Fall 2025',
     org: 'Capstone I Team Project — Coding Warriors',
@@ -64,17 +75,6 @@ const projects = [
     tags: ['Web App', 'Team Project', 'Capstone'],
     link: 'https://github.com/Aashishpalreddy/Project-Food-Log',
     linkText: 'View on GitHub',
-  },
-  {
-    id: 5,
-    title: 'DemandCast',
-    period: '2026',
-    org: 'Personal Project',
-    description:
-      'A per-product demand forecasting tool trained on real e-commerce transaction data, validated with honest rolling-origin backtesting against a seasonal-naive baseline. Includes a live mode where anyone can upload their own sales data and train a model on it in-session, built with Python, LightGBM, and Streamlit.',
-    tags: ['Python', 'Machine Learning', 'LightGBM', 'Time-Series Forecasting', 'Streamlit'],
-    link: 'https://demandcast-itjvs25bbfzfv42bwr7ybj.streamlit.app/',
-    linkText: 'Visit Live Demo',
   },
 ];
 
