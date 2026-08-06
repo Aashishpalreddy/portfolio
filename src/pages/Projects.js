@@ -65,17 +65,6 @@ const projects = [
     link: 'https://github.com/Aashishpalreddy/Project-Food-Log',
     linkText: 'View on GitHub',
   },
-  {
-    id: 5,
-    title: 'DemandCast',
-    period: '2026',
-    org: 'Personal Project',
-    description:
-      'A per-product demand forecasting tool trained on real e-commerce transaction data, validated with honest rolling-origin backtesting against a seasonal-naive baseline. Includes a live mode where anyone can upload their own sales data and train a model on it in-session, built with Python, LightGBM, and Streamlit.',
-    tags: ['Python', 'Machine Learning', 'LightGBM', 'Time-Series Forecasting', 'Streamlit'],
-    link: 'https://demandcast-itjvs25bbfzfv42bwr7ybj.streamlit.app/',
-    linkText: 'Visit Live Demo',
-  },
 ];
 
 function Projects() {
