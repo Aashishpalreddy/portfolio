@@ -45,6 +45,17 @@ const projects = [
   },
   {
     id: 3,
+    title: 'DocuMind',
+    period: '2026',
+    org: 'Personal Project',
+    description:
+      'A RAG-powered support copilot that answers product-documentation questions instantly with cited sources, using FAISS vector search over sentence-transformer embeddings and Groq’s Llama 3.1 for generation. Every answer is scored live by an LLM-judge for faithfulness and retrieval relevance to catch hallucination, with a bring-your-own-document upload mode alongside the demo knowledge base.',
+    tags: ['Python', 'RAG', 'LangChain', 'FAISS', 'Streamlit'],
+    link: 'https://documind-h6vwhc9aqppeamhpheg4sq.streamlit.app/',
+    linkText: 'Visit Live Demo',
+  },
+  {
+    id: 4,
     title: 'HabitQuest',
     period: 'Spring 2025',
     org: 'Personal Project',
@@ -55,7 +66,7 @@ const projects = [
     linkText: 'View on GitHub',
   },
   {
-    id: 4,
+    id: 5,
     title: 'JWKS Server',
     period: 'Spring 2025',
     org: 'CSCE 3550 — Computer Security, University of North Texas',
@@ -66,7 +77,7 @@ const projects = [
     linkText: 'View on GitHub',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Food Log',
     period: 'Fall 2025',
     org: 'Capstone I Team Project — Coding Warriors',
